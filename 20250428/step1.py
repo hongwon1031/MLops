@@ -1,13 +1,9 @@
-from fastapi import FastAPI
-from pydantic import BaseModel
+from fastapi import FastAPI, HTTPException
 
 app = FastAPI()
 
-class Item(BaseModel):
-    name : str
-    description : str = None
-    price : float
-    
-@app.post('/items/', status_code = 201)
-def create_item(item : Item):
-    return item
+@app.get('/items/{item_id}')
+def read_item(item_id : int):
+    if item_id == 0:
+        raise HTTPException(status_code=404, detail = '아이템이 없음')
+    return {'item_id' : item_id}
