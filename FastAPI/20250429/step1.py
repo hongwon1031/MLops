@@ -17,7 +17,7 @@ class ZeroPriceException(Exception):
 class ForbiddenNameException(Exception):
     def __init__(self,forbidden_name : str):
         self.forbidden_name = forbidden_name
-
+ 
 # ZeroPriceException 핸들러
 @app.exception_handler(ZeroPriceException)
 async def zero_price_exception_handler(request:Request, exc : ZeroPriceException):
