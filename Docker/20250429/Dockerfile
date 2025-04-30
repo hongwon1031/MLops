@@ -12,3 +12,4 @@ RUN pip install fastapi uvicorn
 
 # 5. 컨테이너가 실행될 때 명령어
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+
