@@ -72,6 +72,7 @@ FastAPI 서버를 Docker로 감싸고, Kubernetes 클러스터에 배포/운영�
 ---
 
 ## Kubernetes
+
 ### 🛠️ 5월 5일 (일)
 
 - Kubernetes 핵심 개념 학습 (Pod, ReplicaSet, Deployment, Service)
