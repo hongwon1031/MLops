@@ -1,0 +1,6 @@
+# 20250503/.gitignore
+__pycache__/
+*.pyc
+app/.env
+.vscode/
+.idea/
