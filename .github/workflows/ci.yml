@@ -25,7 +25,7 @@ jobs:
 
       - name: ✅ Basic Import Test
         run: |
-          cd app
+          cd 20250503/app
           python -c "from models import Item; print(Item(id=1, name='test', description='hi'))"
 
       - name: 🐳 Docker Build Test
