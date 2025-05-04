@@ -19,7 +19,7 @@ jobs:
 
       - name: 📦 Install dependencies
         run: |
-          cd app
+          cd 20250503/app
           pip install --upgrade pip
           pip install -r requirements.txt
 
