@@ -29,4 +29,6 @@ jobs:
           python -c "from models import Item; print(Item(id=1, name='test', description='hi'))"
 
       - name: 🐳 Docker Build Test
-        run: docker build -t fastapi-app .
+        run: |
+          cd 20250503
+          docker build -t fastapi-app .
