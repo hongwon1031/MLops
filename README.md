@@ -16,7 +16,6 @@ FastAPI 서버를 Docker로 감싸고 azure를 통한 웹 배포까지 실행
 
 ### 🛠️ 4월 25일 (목)
 
-
 - Path Parameter 처리 (/items/{item_id})
 - Query Parameter 처리 (/items/?q=value)
 
