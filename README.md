@@ -74,7 +74,6 @@ FastAPI 서버를 Docker로 감싸고 azure를 통한 웹 배포까지 실행
 ---
 
 ## Kubernetes
-
 ### 🛠️ 5월 5일 (일)
 
 - Kubernetes 핵심 개념 학습 (Pod, ReplicaSet, Deployment, Service)
